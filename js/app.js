@@ -8,7 +8,7 @@ const fetchTop250 = async () => {
     const options = {
         method: 'GET',
         headers: {
-            'x-rapidapi-key': 'bf9539f4e0mshb5356a5d79041a3p174408jsn2b0792f378dc',
+            'x-rapidapi-key': 'TU_API_KEY_AQUI',
             'x-rapidapi-host': 'imdb236.p.rapidapi.com'
         }
     };
