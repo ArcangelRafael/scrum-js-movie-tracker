@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #fff;
+  }
+  
+  .perfil {
+    border: 2px solid black;
+    padding: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .perfil-top {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .foto-perfil {
+    width: 140px;
+    height: 140px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+  }
+  
+  .datos-usuario {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .nombre {
+    font-size: 28px;
+    margin: 0;
+  }
+  
+  .usuario, .correo {
+    color: black;
+    margin: 0;
+  }
+  
+  .editar {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 4px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+    align-self: flex-start;
+  }
+
+  .editar:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .linea {
+    border: none;
+    border-top: 2px solid black;
+    margin: 20px 0;
+  }
+  
+  .barra-inferior {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    font-size: 18px;
+    padding-left: 10px;
+  }
+  
+  
